@@ -82,6 +82,9 @@ hexo g
 hexo deploy
 ```
 就把写好的博客放上去了。
+
+
+*接下来用hexo＋Travis-ci＋github构建自动化博客，敬请关注！*
  
 
 
