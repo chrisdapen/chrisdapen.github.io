@@ -27,7 +27,7 @@ tags:
 *就是清除hexo上次自动构建时环境中的缓存文件和本次生成新的文件，在本地查看还可以让hexo启动本地服务*
 `hexo s`
 *在localhost:4000中查看，本地的我们学会了接下来就是关联到github远端了*
-## hexo发布在github 上（关联）
+# hexo发布在github 上（关联）
 登录到你的github，新建一个repository。新建repository，仓库名字应当为 “你的github用户名.github.io”。
 将此仓库克隆下来，记住克隆的网址（例如“https://github.com/chrisdapen/chrisdapen.github.io.git”）
 克隆后，将桌面的HEXO文件夹拷贝到克隆的repository中。修改其中的“_config.yml”文件。在最后一行添加替换（repository 后就是我们克隆仓库的 https）
@@ -55,7 +55,7 @@ hexo deploy
 ```
 此时就已经ok 了。我们等待hexo deploy执行完毕，就可以在浏览器输入“https://chrisdapen.github.io/” 进行访问我们的hexo 博客了。 
 https://你的仓库名字也就是github用户名.github.io/
-## 切换主题
+# 切换主题
 搜自己喜欢的主题。然后在 clone到hexo的themes 文件夹下。 
 然后修改hexo的“_config.yml”文件。。
 
@@ -73,7 +73,7 @@ hexo deploy
 ```
 耐心等待hexo deploy执行完毕（因为要部署的文件比较多。所以可能会比较慢，需要几分钟）部署成功后再次访问 
 https://你的仓库名字也就是github用户名.github.io/
-## 发布博客
+# 发布博客
 发布一篇博客很简单在“hexo\source_posts” 目录下将编辑好的.md 文件（博客只支持.md文件。也就是使用markdown 编写的文件）复制进去，然后提交到远端。再次执行
 
 ```
